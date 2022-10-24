@@ -1,0 +1,29 @@
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.sidebar {
+	background: #383838;
+	width: 400px;
+	height: 100vh;
+}
+
+.wrapper {
+	display: flex;
+	border: 10px black;
+	height: 1607px;
+	flex-direction: column;
+	width: 1267px;
+
+}
+.header {
+	height: 88px;
+	background: #CCCCCC;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.content {
+	background: #FFFFFF;
+	height: 100vh;
+	font-size: 32px;
+}
